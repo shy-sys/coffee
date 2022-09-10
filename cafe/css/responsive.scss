@@ -1,0 +1,58 @@
+@media screen and (max-width: 767px) {
+    .site-title {
+        top: 42%;
+    }
+    .sec-title{
+        font-size: 2rem;
+        top: 26%;
+    }
+    .item-title {
+        font-size: 1.25rem;
+        margin-bottom: 25px;
+    }
+    .fixed-bg {
+        height: 94px;
+        background-attachment: scroll;   /* スマホ時は背景をスクロールするように変更 */
+    }
+    .wrapper {
+        padding:  30px 16px 60px 16px;
+    }
+
+/*-------------------------------------------
+Menu
+-------------------------------------------*/
+#menu {
+    margin-top: 10px;
+
+    .menu-content {
+        flex-direction: column; 
+    }
+    .menu-item {
+        width: 100%;
+        padding: 0;
+
+        &:first-child {
+            border-right: none;
+        }
+        dl {
+            margin-bottom: 10px;
+
+            &.food {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#about {
+    ul {
+        flex-direction: column;
+    }
+    li {
+        width: 100%;
+    }
+}
+}
